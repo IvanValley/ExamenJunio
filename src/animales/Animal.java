@@ -30,6 +30,9 @@ public abstract class Animal {
      * Ejemplo: 02 para febrero - Un guión (-) o una barra (/) para separar el mes del año. - Un número para representar el año
      * @param sexo Sexo del animal. Será un caracter 'M' para los animales machos o 'H' para los animales hembra.
      * @param peso Peso del animal en kilogramos expresado con decimales. Tiene que ser un número positivo mayor que cero.
+     * @throws IllegalArgumentException Si alguno de los argumentos no cumple con las condiciones establecidas para ser considerados correctos
+     * Profesor, te he hecho otro commit añadiendote el throws con la excepcion porque antes me salia un error no sé por qué,
+     * perdón por las molestias
      */
     
     public Animal(String codigo, String fechaNacimiento, char sexo, double peso) {
